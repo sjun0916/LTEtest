@@ -22,7 +22,7 @@
       <!-- jQuery 2.1.4 -->
     <script src="${pageContext.request.contextPath}/resources/plugins/jQuery/jQuery-2.1.4.min.js"></script>
     
-<body class="skin-blue sidebar-mini">
+<body class="skin-green-light sidebar-mini">
 <div class="wrapper">
 
   <!-- 메인 헤더! -->
@@ -111,10 +111,6 @@
               </li>
             </ul>
           </li>
-          <!-- 사이드바 설정 -->
-          <li>
-            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
-          </li>
         </ul>
       </div>
     </nav>
@@ -155,27 +151,71 @@
         
         <!-- 전자게시판 -->
         <li class="treeview">
-        	<a href="#"><i class="fa fa-link"></i> <span>전자게시판</span>
-        	<span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-        </a>
-        <ul class="treeview-menu">
-            <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●&nbsp;&nbsp;공지사항</a></li>
-            <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●&nbsp;&nbsp;부서게시판</a></li>
-          </ul>
+        	  <a href="#">
+        		<i class="fa fa-edit"></i>
+        		<span>전자게시판</span>
+               	<i class="fa fa-angle-left pull-right"></i>
+          	</a>
+        	<ul class="treeview-menu">
+            	<li><a href="#"><i class="fa fa-circle-o"></i> 공지사항</a></li>
+            	<li><a href="#"><i class="fa fa-circle-o"></i> 부서게시판</a></li>
+          	</ul>
         </li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
+        
+        <li class="treeview action">
+        	<a href="#">
+            	<i class="fa fa-files-o"></i>
+            	<span>전자결재</span>
+            	<i class="fa fa-angle-left pull-right"></i>
+        	</a>
+            <ul class="treeview-menu">
+            	<li><a href="#"><i class="fa fa-circle-o"></i> 결재작성</a></li>
+            	<li><a href="#"><i class="fa fa-circle-o"></i> 결재함</a></li>
+            	<li><a href="#"><i class="fa fa-circle-o"></i> 문서양식</a></li>
+            </ul>
+        </li>
+        
         <li class="treeview">
-        	<a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
-            <span class="pull-right-container">
+              <a href="#">
+                <i class="fa fa-envelope"></i> <span>전자우편</span>
                 <i class="fa fa-angle-left pull-right"></i>
-              </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="#">Link in level 2</a></li>
-            <li><a href="#">Link in level 2</a></li>
-          </ul>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="#"><i class="fa fa-circle-o"></i> 메일쓰기</a></li>
+                <li>
+                  <a href="#"><i class="fa fa-circle-o"></i> 메일함 <i class="fa fa-angle-left pull-right"></i></a>
+                  <ul class="treeview-menu">
+                    <li><a href="#"><i class="fa fa-circle-o"></i> 받은메일함</a></li>
+                    <li><a href="#"><i class="fa fa-circle-o"></i> 보낸메일함</a></li>
+                    <li><a href="#"><i class="fa fa-circle-o"></i> 임시보관함</a></li>
+                  </ul>
+                </li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> 휴지통</a></li>
+              </ul>
+            </li>
+        
+        <li>
+        	<a href="#">
+        	<i class="fa fa-calendar"></i>
+        	<span>일정</span>
+        	</a>
+        </li>
+        
+        <li>
+        	<a href="#">
+        	<i class="fa fa-dashboard"></i>
+        	<span>사진첩</span>
+        	</a>
+        </li>
+        
+        <li><hr></li>
+        
+        <li>
+        	<a href="#">
+        	<i class="fa fa-laptop"></i>
+<!--         	<i class="fa fa-gear"></i> -->
+        	<span>관리자 설정</span>
+        	</a>
         </li>
       </ul>
       <!-- /.sidebar-menu -->

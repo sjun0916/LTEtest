@@ -1,9 +1,10 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page session="false" %>
 <%@include file="include/header.jsp" %>
+
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
-	<!-- Content Header (Page header) -->
+	<!-- 컨텐트 헤더 -->
 	<section class="content-header">
 		<h1>
 			Page Header <small>Optional description</small>
@@ -14,7 +15,7 @@
 		</ol>
 	</section>
 
-	<!-- Main content -->
+	<!-- 컨텐트 메인 -->
 	<section class="content container-fluid">
 
 		<!--------------------------
@@ -25,4 +26,5 @@
 	<!-- /.content -->
 </div>
 <!-- /.content-wrapper -->
+
 <%@include file="include/footer.jsp" %>
